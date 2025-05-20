@@ -1,10 +1,10 @@
 // app/Models/ColaboradoresModel.js
 
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Importa a configuração do Sequelize
+const sequelize = require('../config/database'); 
 
 const Colaboradores = sequelize.define('Colaboradores', {
-  // Definindo os campos com base na tabela 'colaboradores' do banco de dados
+  
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
